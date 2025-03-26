@@ -18,4 +18,7 @@ Several categories were removed from the dataset (dubbed minor incidents) and in
 - Suspicious Occurences 
 - ... 
 
-Size of the final unified dataset with focus on major incidents is ~670k.
+Size of the final unified dataset with focus on major incidents is ~670k.   
+
+### ***"preprocess.ipynb"* - Preprocessing**
+This notebook details my preprocessing pipeline. Categorical columns are either left as is (for tree models) or compressed into latent embeddings via autoencoder. Data is also scaled with MinMaxScalar and StandardScalar.
