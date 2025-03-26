@@ -2,3 +2,6 @@
 post.md
 unified_dataset.csv
 tree_dataset.csv
+cat_embeddings.csv
+.gitignore
+preprocessed_data.csv
