@@ -7,3 +7,4 @@ cat_embeddings.csv
 preprocessed_data.csv
 catboost_info/*
 forecastingpost.md
+figs/timeseries/sfcrime_forecast_block.drawio
