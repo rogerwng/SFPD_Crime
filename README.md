@@ -21,4 +21,10 @@ Several categories were removed from the dataset (dubbed minor incidents) and in
 Size of the final unified dataset with focus on major incidents is ~670k.   
 
 ### ***"preprocess.ipynb"* - Preprocessing**
-This notebook details my preprocessing pipeline. Categorical columns are either left as is (for tree models) or compressed into latent embeddings via autoencoder. Data is also scaled with MinMaxScalar and StandardScalar.
+This notebook details my preprocessing pipeline. Categorical columns are either left as is (for tree models) or compressed into latent embeddings via autoencoder. Data is also scaled with MinMaxScalar and StandardScalar.  
+
+### ***"models.ipynb" and "treemodels.ipynb"* - Classification Model Training**
+These notebooks detail my model selection, training, and evaluation for classification of incident categories. For the 17-class classification task, I acheived a 1.701 log-loss.   
+
+### ***"forecasting.ipynb""* - Time Series Forecasting of Daily Crime Rates**
+This notebook contains my data pipeline to convert this dataset into a time series and engineer features from that series to train a forecasting model. I acheived an RMSE of 24.7 using XGBRegressor.
